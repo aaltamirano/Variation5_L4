@@ -1,12 +1,12 @@
 /*
-font-style
-font-weight
-font-size
-font-family
-text-align
+font-style - bold, Italic, Underline
+font-weight - px
+font-size - pt
+font-family - Courier, Garamond
+text-align - Center
 line-height
 letter-spacing
-text-transform
+text-transform - Cap, Lowercase, All Cap
 */
 
 body 		{
@@ -15,7 +15,6 @@ body 		{
 				font-weight: 18px;
 				font-size: 50pt;
 			}
-
 
 .main
 			{	
@@ -28,7 +27,8 @@ body 		{
 				font-family: Garamond;
 				font-size: 30pt;
 				text-align: center;
-			}
+				font-style: bold;
+			} 
 
 #h1
 			{
@@ -37,19 +37,12 @@ body 		{
 				font-size: 55pt;
 				text-align: center;
 			}
-			
-/*.allign
-			{
-				height: 300px;
-				width: 300px;
-				position: inherit;
-				margin: 300px auto;
-			}*/
 
 .bold
 			{
 				font-style: bold; 
 			}
+			
 .textrans   {
-				text-transform: capitalize;
+				text-transform: uppercase;
 			}
