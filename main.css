@@ -15,7 +15,7 @@ body 		{
 				font-weight: 18px;
 				font-size: 50pt;
 				line-height: 150px;
-				text-decoration-style: line-through;
+				text-decoration: line-through;
 			}
 
 .main
